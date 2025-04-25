@@ -41,16 +41,18 @@ We also compare rain prediction models based on graph neural networks.
 - Robust spatial generalization, adapting well across different U.S. regions.
 - Superior to baseline, indicating value added by modeling spatiotemporal dependencies.
 - Scalable design, ready for extension to additional variables or longer forecast horizons.
-  
+
+   
 ### Rain Prediction
 - The GNN model gives very inaccurate rain predictions.  (F1: 0.2653, Accuracy: 0.8063, Precision: 0.2544, Recall: 0.2772)
 - The CNN based model gives much better prediction scores. (F1: 0.7679, Accuracy: 0.9388, Precision: 0.7712, Recall: 0.7646)
 - Reducing the window size only slightly improves the performance scores because fewer data points are labeled as raining with decreasing window size. 
-- See the attached figures: confusion matrix for CNN model on test dataset and sample visualization of rain prediction on the spatial map.
+- See the attached figures: confusion matrix for CNN model on test dataset and sample visualization of rain prediction on the spatial map. 
+<img src="https://github.com/user-attachments/assets/029effd3-f226-46b2-9edb-c269603d114e" width = "600">
+<img src="https://github.com/user-attachments/assets/e33de3ce-946f-452c-af6e-a6530846d4af" width = "800">
 
+  
 ## References: 
-
-References: 
 
 - 1.Accurate medium-range global weather forecasting with 3D neural networks
  Bi, Kaifeng, et al. "Accurate medium-range global weather forecasting with 3D neural networks." Nature, vol. 619, 2023, pp. 533–538. https://www.nature.com/articles/s41586-023-06185-3 
