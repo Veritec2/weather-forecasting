@@ -47,7 +47,9 @@ We also compare rain prediction models based on graph neural networks.
 - The GNN model gives very inaccurate rain predictions.  (F1: 0.2653, Accuracy: 0.8063, Precision: 0.2544, Recall: 0.2772)
 - The CNN based model gives much better prediction scores. (F1: 0.7679, Accuracy: 0.9388, Precision: 0.7712, Recall: 0.7646)
 - Reducing the window size only slightly improves the performance scores because fewer data points are labeled as raining with decreasing window size. 
-- See the attached figures: confusion matrix for CNN model on test dataset and sample visualization of rain prediction on the spatial map. 
+- See the attached figures: confusion matrix for CNN model on test dataset and sample visualization of rain prediction on the spatial map.
+<img src="https://github.com/Veritec2/weather-forecasting/blob/main/time%20series%20pred%20vs%20true.png?raw=true" width = "800">
+<img src="https://github.com/Veritec2/weather-forecasting/blob/main/IAD%20pred%20vs%20true.png?raw=true" width = "1000">
 <img src="https://github.com/user-attachments/assets/029effd3-f226-46b2-9edb-c269603d114e" width = "600">
 <img src="https://github.com/user-attachments/assets/e33de3ce-946f-452c-af6e-a6530846d4af" width = "800">
 
